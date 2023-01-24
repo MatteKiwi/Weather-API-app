@@ -1,0 +1,78 @@
+.searchBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+.searchBar input {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  margin-right: 1rem;
+}
+
+.searchBar button {
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  background-color: lightcoral;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.result {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.result p {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+
+.forecastCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.forecastCard img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.forecastCard p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.showDetails{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.showDetails button {
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  background-color: lightcoral;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
