@@ -37,10 +37,9 @@ const GetWeatherCity = () => {
         <CurrentWeather data={weather}/>
         </div>
         <div className={styles.showDetails}>
-        <button onClick={() => setShowDetails(!showDetails)}>{showDetails ? "Hide details" : "Show details"}</button>
-        {showDetails ? <DisplayWeather data={weather} /> : null}
-        
+        <button onClick={() => setShowDetails(!showDetails)}>{showDetails ? "Göm detaljer" : "Visa detaljer"}</button>     
         </div>
+        <div className={styles.showDetails}>{showDetails ? <DisplayWeather data={weather} /> : null} </div>
         </>
     );
 };

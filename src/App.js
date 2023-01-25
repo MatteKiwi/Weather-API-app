@@ -1,4 +1,3 @@
-import './App.css';
 import GetWeatherCity from './components/GetWeatherCity';
 
 function App() {
