@@ -10,6 +10,7 @@ const CurrentWeather = ({data}) => {
         <p>🗓️{data.location?.localtime} </p>
         <img src={data.current?.condition.icon}></img>
     </div>
+    <></>
     </>
     );
 };
